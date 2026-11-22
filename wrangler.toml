@@ -6,4 +6,4 @@ compatibility_date = "2023-12-01"
 command = "cargo install -q worker-build && worker-build --release"
 
 [env.dev]
-build = { command = "cargo install -q worker-build && worker-build --dev" }
+build = { command = "cargo install -q worker-build@^0.1 && worker-build --release" }
